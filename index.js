@@ -1,7 +1,7 @@
 const express = require("express");
 const jwt = require('jsonwebtoken');
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://admin:VowyYnkBsv1ZGvQu@cluster0.vuzwp.mongodb.net/course-database");
+mongoose.connect("\\mongodb address");
 
 
 const app = express();
